@@ -1,0 +1,42 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="GNU General Public License version 3 (GPLv3)"
+
+[[mods]]
+modId="chillax"
+version="1.0.0"
+displayName="Chillax"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+credits="Spiderman31807"
+authors="Spiderman31807"
+description="Provides a toggle keybind for sitting, laying and crawling"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+
+# Start of user code block custom mixins
+[[mixins]]
+config="mixin.chillax.json"
+# End of user code block custom mixins
+
+[[dependencies.chillax]]
+modId="neoforge"
+type="required"
+versionRange="[21.8.31,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.chillax]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.8]"
+ordering="AFTER"
+side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

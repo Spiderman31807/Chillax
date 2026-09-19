@@ -1,0 +1,165 @@
+{
+  "mod_elements": [
+    {
+      "name": "StateHolder",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "state_holder",
+      "metadata": {
+        "files": [
+          "src/main/java/chillax/StateHolder.java"
+        ]
+      }
+    },
+    {
+      "name": "State",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "state",
+      "metadata": {
+        "files": [
+          "src/main/java/chillax/State.java"
+        ]
+      }
+    },
+    {
+      "name": "PlayerMixin",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "player_mixin",
+      "metadata": {
+        "files": [
+          "src/main/java/chillax/PlayerMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "PlayerRendererMixin",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "player_renderer_mixin",
+      "metadata": {
+        "files": [
+          "src/main/java/chillax/PlayerRendererMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "Keybinds",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "keybinds",
+      "metadata": {
+        "files": [
+          "src/main/java/chillax/Keybinds.java"
+        ]
+      }
+    },
+    {
+      "name": "Events",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "events",
+      "metadata": {
+        "files": [
+          "src/main/java/chillax/Events.java"
+        ]
+      }
+    },
+    {
+      "name": "ServerboundChangeStatePacket",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "serverbound_change_state_packet",
+      "metadata": {
+        "files": [
+          "src/main/java/chillax/ServerboundChangeStatePacket.java"
+        ]
+      }
+    },
+    {
+      "name": "ServerboundChangeSleepingAnglePacket",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "serverbound_change_sleeping_angle_packet",
+      "metadata": {
+        "files": [
+          "src/main/java/chillax/ServerboundChangeSleepingAnglePacket.java"
+        ]
+      }
+    },
+    {
+      "name": "ClientboundChangeStatePacket",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "clientbound_change_state_packet",
+      "metadata": {
+        "files": [
+          "src/main/java/chillax/ClientboundChangeStatePacket.java"
+        ]
+      }
+    },
+    {
+      "name": "ClientboundChangeSleepingAnglePacket",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "clientbound_change_sleeping_angle_packet",
+      "metadata": {
+        "files": [
+          "src/main/java/chillax/ClientboundChangeSleepingAnglePacket.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "chillax.key.sit": "Toggle Sitting",
+      "chillax.key.sleep": "Toggle Sleeping",
+      "chillax.key.swim": "Toggle Swimming"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/chillax/ChillaxMod.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "chillax",
+    "modName": "Chillax",
+    "version": "1.0.0",
+    "description": "Provides a toggle keybind for sitting, laying and crawling",
+    "author": "Spiderman31807",
+    "websiteURL": "www.curseforge.com/minecraft/mc-mods/chillax",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "serverSideOnly": false,
+    "modPicture": "sxs",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.8",
+    "credits": "Spiderman31807",
+    "modElementsPackage": "chillax"
+  },
+  "mcreatorVersion": 202600233518
+}

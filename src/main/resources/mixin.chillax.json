@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "chillax.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PlayerMixin"
+  ],
+  "client": [
+  	"PlayerRendererMixin"
+  ],
+  "minVersion": "0.8"
+}
